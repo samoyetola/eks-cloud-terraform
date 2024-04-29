@@ -7,7 +7,7 @@ resource "aws_db_instance" "myrds" {
    identifier          = "mydb"
    instance_class      = "db.t3.micro"
    username            = "admin"
-   password            = "Pa$$w0rd!ZzK4t2"
+   password            = "#############"
    publicly_accessible = true
    skip_final_snapshot = true
 
